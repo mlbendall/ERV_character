@@ -61,8 +61,8 @@ cat dfam/ids.txt | while read l; do
     n=$(cut -f1 <<<"$l")
     i=$(cut -f2 <<<"$l")
     echo "Name: $n, ID: $i"
-    curl -X POST -F "file=hmm" http://dfam.org/download/model/$i > dfam/$n.hmm.gz
-    curl -X POST -F "file=seed" http://dfam.org/download/model/$i > dfam/$n.seed.gz
+    curl -X POST -F "file=hmm" http://dfam.org/download/model/$i > dfam/${n}.hmm.gz
+    curl -X POST -F "file=seed" http://dfam.org/download/model/$i > dfam/${n}.seed.gz
 done
 ```    
 
