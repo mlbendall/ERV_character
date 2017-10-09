@@ -1,0 +1,6 @@
+repbase_pw.txt
+*.hmm.gz
+*.seed.gz
+*.embl
+*.gbk
+*.fasta
