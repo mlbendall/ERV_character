@@ -4,3 +4,4 @@ repbase_pw.txt
 *.embl
 *.gbk
 *.fasta
+.DS_Store
